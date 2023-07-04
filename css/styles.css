@@ -1,0 +1,154 @@
+*{
+box-sizing: border-box;
+margin: 0%;
+padding: 0%;
+
+}
+body{
+    width: 100%;
+    height: 100vh;
+    background-color:rgb(149, 144, 144) ;
+}
+
+
+header{
+    background-color: rgb(9, 9, 9);
+    padding: 20px;
+    color: white;
+   display: flex;
+   justify-content: baseline;
+    height: 100px;
+    justify-content: space-between;
+  
+
+   
+  
+}   
+.camara{
+    background-color: rgb(9, 9, 9);
+    padding: 10px;
+    color: white;
+   display: flex;
+   gap: 20px;
+  height: 100%;
+
+}
+.icon2{
+    margin-top: 15px;
+}
+h4{
+    padding: 12px;
+    margin-left: -20px;
+    
+}
+
+.titulo{
+    background-color:rgb(255, 255, 255);
+    width: 100%;
+    height: 50%;
+    text-align: center;
+    padding: 5%;
+    
+
+}
+.texto-titulo{
+ margin: 10px;
+ font-size:20px;
+ width: 600px;
+ margin-left: 29%;
+}
+
+.blue{
+   background-color: rgb(41, 88, 244);
+   color: white;
+   border-radius: 10px;
+   padding: 10px;
+   font-size: 12px;
+   cursor: pointer;
+ 
+   
+}
+.white{
+    background-color: silver;
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 12px;
+    cursor: pointer;
+  
+}
+
+h2{
+margin-top: 47px;
+}
+
+
+
+    
+
+.tarjetas{
+    background-color: rgb(249, 250, 250);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    flex-wrap: wrap;
+    padding: 40px;
+
+
+}
+
+img{
+    height: 70%;
+    width: 100%;
+    border-radius: 10px;
+}
+
+section{
+    background-color:rgb(255, 255, 255);
+    width: 400px;
+    height: 400px;
+  
+    
+  
+}
+
+.right{
+    display: flex;
+    margin: 10px;
+    border-radius: 40px;
+    height: 30px;
+    width: 20px;
+
+
+}
+.right button{
+    border: 1px solid rgb(4, 4, 4);
+    background-color: rgb(251, 253, 254);
+    cursor: pointer;
+    width: 90px;
+  border-radius: 5px;
+   padding-left: 20px;
+   padding-right: 20px;
+ 
+}
+h5{
+    text-align: end;
+    margin-top: -40px;
+    padding: 10px;
+
+    
+}
+
+
+footer{
+    background-color: rgb(255, 255, 255);
+ padding: 40px;
+display: flex;
+justify-content: space-between;
+
+}
+footer p{
+    width: 550px;
+}
